@@ -4,7 +4,7 @@
   "description": "Quantum Signal AI — Bot Execution Engine",
   "main": "index.js",
   "scripts": {
-    "start": "node bot-engine.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.0",
