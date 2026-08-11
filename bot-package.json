@@ -1,15 +1,12 @@
 {
-  "name": "quantum-signal-ai-bot-engine",
+  "name": "qsa-bot-engine",
   "version": "1.0.0",
-  "description": "Quantum Signal AI — Automated Bot Execution Engine",
+  "description": "Quantum Signal AI — Bot Execution Engine",
   "main": "bot-engine.js",
-  "type": "module",
   "scripts": {
-    "start": "node bot-engine.js",
-    "dev": "node --watch bot-engine.js"
+    "start": "node bot-engine.js"
   },
   "dependencies": {
-    "@alpacahq/alpaca-trade-api": "^3.1.1",
     "@supabase/supabase-js": "^2.39.0",
     "resend": "^3.2.0"
   },
@@ -17,4 +14,3 @@
     "node": ">=18.0.0"
   }
 }
-
